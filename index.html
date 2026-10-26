@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>ARYAN BETTING GURUJI - Official Telegram Channel</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -12,13 +12,15 @@
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
+            overflow: hidden; /* Scroll disable karne ke liye */
+            touch-action: manipulation;
         }
     </style>
 </head>
-<body class="bg-[#0b1329] text-white min-h-screen flex flex-col items-center justify-between p-4 selection:bg-cyan-500 selection:text-black">
+<body class="bg-[#0b1329] text-white h-screen flex flex-col items-center justify-between p-3 selection:bg-cyan-500 selection:text-black overflow-hidden">
 
     <!-- Top Navigation / Header Info -->
-    <div class="w-full max-w-md flex justify-between items-center py-2 px-1 text-xs font-semibold tracking-wide">
+    <div class="w-full max-w-md flex justify-between items-center py-1 px-1 text-xs font-semibold tracking-wide shrink-0">
         <div class="flex items-center gap-1.5 bg-[#13203f] border border-[#1e325c] px-3 py-1.5 rounded-full text-cyan-400">
             <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
             OFFICIAL CHANNEL
@@ -30,23 +32,23 @@
     </div>
 
     <!-- Main Container -->
-    <main class="w-full max-w-md flex flex-col items-center text-center my-auto py-6">
+    <main class="w-full max-w-md flex flex-col items-center text-center justify-center my-auto py-2 shrink-0">
 
-        <!-- Logo / Profile Avatar with Glow -->
-        <div class="relative mb-4">
+        <!-- Logo / Profile Avatar with Glow (Fixed Image Tag) -->
+        <div class="relative mb-3">
             <div class="absolute inset-0 rounded-full bg-gradient-to-tr from-cyan-500 to-indigo-500 blur-md opacity-70 animate-pulse"></div>
-            <div class="relative w-28 h-28 rounded-full bg-[#111a33] border-2 border-cyan-400 flex items-center justify-center shadow-2xl">
-                <span class="https://raw.githubusercontent.com/onlinetipper/aryanbhai/37c7e3cef1ba5ebcefe441796080e2dee26347b4/aryanjj.jpg">Logo</span>
+            <div class="relative w-24 h-24 rounded-full bg-[#111a33] border-2 border-cyan-400 overflow-hidden shadow-2xl flex items-center justify-center">
+                <img src="https://raw.githubusercontent.com/onlinetipper/aryanbhai/37c7e3cef1ba5ebcefe441796080e2dee26347b4/aryanjj.jpg" alt="Logo" class="w-full h-full object-cover">
             </div>
         </div>
 
         <!-- Title & Subtitle / Stats -->
-        <h1 class="text-3xl font-extrabold tracking-wide mb-2 flex items-center justify-center gap-2">
+        <h1 class="text-2xl md:text-3xl font-extrabold tracking-wide mb-1 flex items-center justify-center gap-2">
             ARYAN BETTING GURUJI 
-            <i class="fa-solid fa-circle-check text-cyan-400 text-lg"></i>
+            <i class="fa-solid fa-circle-check text-cyan-400 text-base"></i>
         </h1>
 
-        <div class="flex items-center justify-center gap-4 text-xs font-semibold text-slate-300 mb-6">
+        <div class="flex items-center justify-center gap-4 text-xs font-semibold text-slate-300 mb-4">
             <span class="flex items-center gap-1">
                 <i class="fa-solid fa-users text-cyan-400"></i> 27.2K+ Subscribers
             </span>
@@ -57,80 +59,80 @@
         </div>
 
         <!-- Feature Badges Grid (3 Cards) -->
-        <div class="grid grid-cols-3 gap-3 w-full mb-6">
+        <div class="grid grid-cols-3 gap-2.5 w-full mb-4">
             <!-- Card 1 -->
-            <div class="bg-[#121c38] border border-[#1f305e] rounded-2xl p-3 flex flex-col items-center text-center shadow-lg">
-                <div class="text-cyan-400 text-lg mb-1"><i class="fa-solid fa-rotate"></i></div>
-                <div class="text-xs font-bold leading-tight">BACK-2-BACK</div>
-                <div class="text-[10px] text-slate-400 mt-0.5">Match Pass</div>
+            <div class="bg-[#121c38] border border-[#1f305e] rounded-xl p-2.5 flex flex-col items-center text-center shadow-lg">
+                <div class="text-cyan-400 text-base mb-0.5"><i class="fa-solid fa-rotate"></i></div>
+                <div class="text-[11px] font-bold leading-tight">BACK-2-BACK</div>
+                <div class="text-[9px] text-slate-400 mt-0.5">Match Pass</div>
             </div>
             <!-- Card 2 -->
-            <div class="bg-[#121c38] border border-[#1f305e] rounded-2xl p-3 flex flex-col items-center text-center shadow-lg">
-                <div class="text-cyan-400 text-lg mb-1"><i class="fa-solid fa-shield-halved"></i></div>
-                <div class="text-xs font-bold leading-tight">100% FREE</div>
-                <div class="text-[10px] text-slate-400 mt-0.5">VIP Entry</div>
+            <div class="bg-[#121c38] border border-[#1f305e] rounded-xl p-2.5 flex flex-col items-center text-center shadow-lg">
+                <div class="text-cyan-400 text-base mb-0.5"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="text-[11px] font-bold leading-tight">100% FREE</div>
+                <div class="text-[9px] text-slate-400 mt-0.5">VIP Entry</div>
             </div>
             <!-- Card 3 -->
-            <div class="bg-[#121c38] border border-[#1f305e] rounded-2xl p-3 flex flex-col items-center text-center shadow-lg">
-                <div class="text-cyan-400 text-lg mb-1"><i class="fa-solid fa-award"></i></div>
-                <div class="text-xs font-bold leading-tight">TRUSTED</div>
-                <div class="text-[10px] text-slate-400 mt-0.5">No.1 Brand</div>
+            <div class="bg-[#121c38] border border-[#1f305e] rounded-xl p-2.5 flex flex-col items-center text-center shadow-lg">
+                <div class="text-cyan-400 text-base mb-0.5"><i class="fa-solid fa-award"></i></div>
+                <div class="text-[11px] font-bold leading-tight">TRUSTED</div>
+                <div class="text-[9px] text-slate-400 mt-0.5">No.1 Brand</div>
             </div>
         </div>
 
         <!-- Bullet Points Box -->
-        <div class="w-full bg-[#121c38]/80 border border-[#1f305e] rounded-2xl p-4 mb-6 text-left space-y-2.5 shadow-md">
-            <div class="flex items-center gap-3 text-xs md:text-sm font-medium">
-                <span class="w-5 h-5 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-[10px] shrink-0">✓</span>
+        <div class="w-full bg-[#121c38]/80 border border-[#1f305e] rounded-xl p-3 mb-4 text-left space-y-2 shadow-md">
+            <div class="flex items-center gap-2.5 text-xs font-medium">
+                <span class="w-4 h-4 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-[9px] shrink-0">✓</span>
                 <span>Toss + Match + Session Sabse Pehle</span>
             </div>
-            <div class="flex items-center gap-3 text-xs md:text-sm font-medium">
-                <span class="w-5 h-5 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-[10px] shrink-0">✓</span>
+            <div class="flex items-center gap-2.5 text-xs font-medium">
+                <span class="w-4 h-4 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-[9px] shrink-0">✓</span>
                 <span>All T20, League & International Matches</span>
             </div>
-            <div class="flex items-center gap-3 text-xs md:text-sm font-medium">
-                <span class="w-5 h-5 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-[10px] shrink-0">✓</span>
+            <div class="flex items-center gap-2.5 text-xs font-medium">
+                <span class="w-4 h-4 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-[9px] shrink-0">✓</span>
                 <span>Abhi Join Karo Aur Proof Dekho!</span>
             </div>
         </div>
 
         <!-- Arrow direction text -->
-        <div class="text-xs text-cyan-400 font-medium mb-2 animate-bounce">
+        <div class="text-xs text-cyan-400 font-medium mb-1.5 animate-bounce">
             👇 Tap above to join channel securely
         </div>
 
         <!-- Main Telegram CTA Button -->
-        <a href="https://t.me/+_lqEUxdvGo5lODVl" target="_blank" class="w-full py-4 px-6 rounded-2xl bg-gradient-to-r from-cyan-400 to-blue-600 text-slate-950 font-extrabold text-base flex items-center justify-center gap-3 shadow-xl shadow-cyan-500/20 hover:opacity-95 transition active:scale-[0.98]">
-            <i class="fa-brands fa-telegram text-2xl text-slate-950"></i>
+        <a href="https://t.me/+_lqEUxdvGo5lODVl" target="_blank" class="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-600 text-slate-950 font-extrabold text-sm flex items-center justify-center gap-2.5 shadow-xl shadow-cyan-500/20 hover:opacity-95 transition active:scale-[0.98]">
+            <i class="fa-brands fa-telegram text-xl text-slate-950"></i>
             <span>ARYAN BETTING GURUJI TELEGRAM</span>
         </a>
 
     </main>
 
     <!-- Bottom Urgency Footer Bar -->
-    <footer class="w-full max-w-md bg-[#121c38] border border-[#1f305e] rounded-2xl p-3.5 flex items-center justify-between shadow-lg">
-        <div class="flex items-center gap-2.5 text-xs">
-            <div class="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
-                <i class="fa-solid fa-bolt text-sm"></i>
+    <footer class="w-full max-w-md bg-[#121c38] border border-[#1f305e] rounded-xl p-3 flex items-center justify-between shadow-lg shrink-0">
+        <div class="flex items-center gap-2 text-xs">
+            <div class="w-7 h-7 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
+                <i class="fa-solid fa-bolt text-xs"></i>
             </div>
-            <div>
-                <div class="font-semibold text-slate-300">Fast Joining Active</div>
-                <div class="text-[10px] text-slate-500">Disclaimer: This channel is strictly for entertainment & sports analysis purposes only.</div>
+            <div class="text-left">
+                <div class="font-semibold text-slate-300 text-[11px]">Fast Joining Active</div>
+                <div class="text-[9px] text-slate-500 leading-none">Strictly for sports analysis purpose.</div>
             </div>
         </div>
         <div class="text-right shrink-0">
-            <div class="text-[10px] text-amber-400 font-bold">Only 3 Spots Left!</div>
+            <div class="text-[9px] text-amber-400 font-bold">Only 3 Spots Left!</div>
             <div id="countdown" class="text-xs font-mono font-bold text-cyan-400">00:26s</div>
         </div>
     </footer>
 
-    <!-- Simple Script for Countdown Animation (Optional) -->
+    <!-- Simple Script for Countdown Animation -->
     <script>
         let seconds = 26;
         const countdownEl = document.getElementById('countdown');
         setInterval(() => {
             seconds--;
-            if(seconds < 10) seconds = 26; // Loop back for demo effect
+            if(seconds < 10) seconds = 26;
             countdownEl.textContent = `00:${seconds < 10 ? '0' : ''}${seconds}s`;
         }, 1000);
     </script>
